@@ -19,11 +19,6 @@ export const DeveloperSetup: React.FC = () => {
         <h3>Terminal</h3>
         <p>{developerSetup.terminal}</p>
       </div>
-
-      <div className="setup-card">
-        <h3>Preferred Font</h3>
-        <p>{developerSetup.font}</p>
-      </div>
     </section>
   );
 };

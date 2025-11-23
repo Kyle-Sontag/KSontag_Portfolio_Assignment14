@@ -18,14 +18,6 @@ export const Work: React.FC = () => {
                 </span>
               ))}
             </div>
-            <a
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
           </div>
         ))}
       </div>

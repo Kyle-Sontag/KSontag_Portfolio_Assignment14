@@ -21,7 +21,7 @@ export const Resources: React.FC = () => {
               rel="noopener noreferrer"
               className="resource-link"
             >
-              Visit Resource →
+              Visit Resource
             </a>
           </div>
         ))}

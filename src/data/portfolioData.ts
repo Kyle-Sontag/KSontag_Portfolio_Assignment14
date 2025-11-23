@@ -20,10 +20,8 @@ export interface Resource {
 export const basicInfo = {
   name: 'Kyle Sontag',
   title: 'Full Stack Developer',
-  bio: 'Business Information Technology student at Red River College specializing in web development and cloud technologies.',
-  email: 'your.email@example.com',
+  bio: 'Full Stack Web Development student at Red River College',
   github: 'https://github.com/Kyle-Sontag',
-  linkedin: 'https://linkedin.com/in/yourusername',
   photo: '/profile.jpg',
 };
 
@@ -63,7 +61,6 @@ export const resources: Resource[] = [
 ];
 
 export const developerSetup = {
-  vscode: ['ESLint', 'Prettier', 'GitLens', 'Docker'],
+  vscode: ['ESLint', 'Prettier', 'Docker'],
   terminal: 'PowerShell',
-  font: 'Fira Code, 14px',
 };

@@ -43,7 +43,7 @@ function App() {
       </main>
 
       <footer className="App-footer">
-        <p>&copy; 2024 Kyle Sontag. All rights reserved.</p>
+        <p>&copy; 2025 Kyle Sontag. All rights reserved.</p>
       </footer>
     </div>
   );
