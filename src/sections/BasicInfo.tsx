@@ -7,15 +7,31 @@ export const BasicInfo: React.FC = () => {
       <h2>About Me</h2>
       <div className="basic-info-card">
         <div className="basic-info-content">
-          <img src={basicInfo.photo} alt={basicInfo.name} className="profile-photo" />
+          <img
+            src={basicInfo.photo}
+            alt={basicInfo.name}
+            className="profile-photo"
+          />
           <div className="basic-info-text">
             <h3>{basicInfo.name}</h3>
             <p className="title">{basicInfo.title}</p>
             <p className="bio">{basicInfo.bio}</p>
             <div className="contact-links">
               <a href={`mailto:${basicInfo.email}`}>Email</a>
-              <a href={basicInfo.github} target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href={basicInfo.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a
+                href={basicInfo.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href={basicInfo.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
             </div>
           </div>
         </div>

@@ -12,7 +12,9 @@ export const Skills: React.FC = () => {
           <h3>Languages & Frameworks</h3>
           <div className="skills-list">
             {skills.languages.map((lang, index) => (
-              <span key={index} className="skill-tag">{lang}</span>
+              <span key={index} className="skill-tag">
+                {lang}
+              </span>
             ))}
           </div>
         </div>
@@ -21,7 +23,9 @@ export const Skills: React.FC = () => {
           <h3>Tools & Technologies</h3>
           <div className="skills-list">
             {skills.tools.map((tool, index) => (
-              <span key={index} className="skill-tag">{tool}</span>
+              <span key={index} className="skill-tag">
+                {tool}
+              </span>
             ))}
           </div>
         </div>
